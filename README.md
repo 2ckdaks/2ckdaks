@@ -9,7 +9,7 @@
 
 [![changmin's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&contribs&count_private=true&theme=tokyonight )](https://github.com/2ckdaks/github-readme-stats)
 
-[![minseon yu's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks)&hide=stars,contribs&count_private=true](https://github.com/2ckdaks/github-readme-stats)
+[![minseon yu's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&hide=stars,contribs&count_private=true&theme=tokyonight])(https://github.com/2ckdaks/github-readme-stats)
 
 
  
