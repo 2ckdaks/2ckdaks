@@ -1,0 +1,20 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # 매 30분마다 실행
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Update README Stats
+        run: |
+          # README 파일을 가져옵니다
+          wget -qO- "https://github.com/2ckdaks/github-readme-stats/api?username=2ckdaks&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&custom_token=${{ secrets.GITHUB_STATS_TOKEN }}" > README_STATS.md
+          # README 파일을 업데이트 합니다
+          cat README_STATS.md > README.md
+        env:
+          GITHUB_STATS_TOKEN: ${{ secrets.GITHUB_STATS_TOKEN }}
