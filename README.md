@@ -7,9 +7,7 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F2ckdaks&count_bg=%23596AE5&title_bg=%23555555&icon=&icon_color=%233475E1&title=GITHUB&edge_flat=false)](https://hits.seeyoufarm.com)
 
-[![changmin's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&contribs&count_private=true&theme=tokyonight )](https://github.com/2ckdaks/github-readme-stats)
-
-[![minseon yu's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&hide=stars,contribs&count_private=true&theme=tokyonight)](https://github.com/2ckdaks/github-readme-stats)
+[![changmin's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&hide=stars,contribs&count_private=true&theme=tokyonight)](https://github.com/2ckdaks/github-readme-stats)
 
 
  
