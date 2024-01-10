@@ -13,8 +13,16 @@ jobs:
       - name: Update README Stats
         run: |
           # README 파일을 가져옵니다
-          wget -qO- "https://github.com/2ckdaks/github-readme-stats/api?username=2ckdaks&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&custom_token=${{ secrets.GITHUB_STATS_TOKEN }}" > README_STATS.md
+          wget -qO- "https://github-readme-stats.vercel.app/api?username=2ckdaks&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&custom_token=${{ secrets.GITHUB_STATS_TOKEN }}" > README_STATS.md
           # README 파일을 업데이트 합니다
           cat README_STATS.md > README.md
         env:
           GITHUB_STATS_TOKEN: ${{ secrets.GITHUB_STATS_TOKEN }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'Your GitHub Username'
+          git config --global user.email 'your-email@example.com'
+          git add README.md
+          git commit -m "Update README with GitHub Stats"
+          git push
