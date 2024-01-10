@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name 'Your GitHub Username'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name '2ckdaks'
+          git config --global user.email '2ckdaks@gmail.com'
           git add README.md
           git commit -m "Update README with GitHub Stats"
           git push
