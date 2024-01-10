@@ -9,6 +9,8 @@
 
 [![changmin's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight)](https://github.com/2ckdaks/github-readme-stats)
 
+[![changmin's GitHub stats](https://github-readme-stats.vercel.app/api?username=2ckdaks&contribs&count_private=true)](https://github.com/2ckdaks/github-readme-stats)
+
 
  
 <br>
